@@ -1,0 +1,290 @@
+.navbar-brand {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    font-size: 40px;
+    font-family: arial;
+    font-variant: small-caps;
+  }
+  .navbar{
+    padding: 10px !important;
+  }
+  .nav-link {
+    font-family: arial;
+    font-variant: small-caps;
+    font-size: 20px;
+  }
+  
+  html {
+    box-sizing: border-box;
+    background-color: #4a5c5c;
+  }
+  
+  html, body {
+      min-height: 100%;
+      height: 100%;
+      background-color: #25312E;
+  }
+  
+  *,
+  *:before,
+  *:after {
+  
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: center;
+    background-color: #25312E;
+    /*height: 900px;*/
+  }
+  
+  .home-header {
+    /*width: 1200px;*/
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-photo {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    overflow:hidden;
+    margin-bottom: 20px
+  }
+  
+  .main-logo-head {
+    font-size: 120px;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    margin-top: 120px;
+    font-family: arial;
+    font-variant: small-caps;
+  }
+  .main-logo-head2 {
+    font-size: 60px;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    margin-top: 240px;
+    font-family: arial;
+    font-variant: small-caps;
+  }
+  
+  .main-logo {
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    /*background-color: rgba(0,0,0,.2);*/
+    margin-top: 500px;
+    font-family: arial;
+    font-weight: lighter;
+    font-variant: small-caps;
+    height: 100px;
+  }
+  
+  .home-header img {
+  
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  a {
+    transition: all .4s;
+  }
+  
+  .masonry { /* Masonry container */
+    padding: 10px;margin-left: 50px !important;
+    margin-right: 50px !important;
+    max-width: 100%;
+    column-gap: 1.5em;
+    background-color: #25312E;
+  }
+  
+  .item { /* Masonry bricks or child elements */
+    background-color: #25312E;
+    padding: iem;
+    margin: 0 0 1.5em;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .masonry {
+      column-count: 3;
+    }
+  }
+  
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+      column-count: 1;
+    }
+    .main-logo{
+      width: 700px;
+      word-wrap: break-word;
+      font-size: 80px;
+      margin-top: 800px;
+      font-weight: normal;
+    }
+    .about-header {
+      font-size: 50px;
+      border-width: 8px;
+    }
+    .nav-link {
+      font-size: 80px;
+    }
+    .navbar-brand {
+      font-size: 100px;
+      margin-left: 0px !important;
+      margin-right: 10px !important;
+    }
+    .about-body {
+      width: 700px !important; 
+      font-size: 60px !important;
+    }
+    .tour-body {
+      width: 700px !important; 
+      font-size: 60px !important;
+    }
+    .tour-date {
+      font-size: 40px !important;
+    }
+    .home-header {
+      overflow: hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) and (min-width: 400px) {
+    .masonry {
+      column-count: 1;
+    }
+    .main-logo{
+      width: 400px;
+      word-wrap: break-word;
+      font-size: 60px;
+      margin-top: 800px;
+      font-weight: normal;
+    }
+    .nav-link {
+      font-size: 40px;
+    }
+    .navbar-brand {
+      font-size: 60px;
+      margin-left: 0px !important;
+      margin-right: 10px !important;
+    }
+    .about-body {
+      width: 500px !important; 
+      font-size: 40px !important;
+    }
+    .tour-body {
+      width: 500px !important; 
+      font-size: 40px !important;
+    }
+    .tour-date {
+      font-size: 40px !important;
+    }
+    .home-header {
+      overflow: hidden;
+    }
+  }
+  
+  .standard-header {
+    padding: 20px;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: arial;
+    color: white;
+    background-color: #25312E;
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+  }
+  
+  .tour-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #25312E;
+  }
+  
+  .tour {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-body {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: arial;
+    color: white;
+    width: 1000px;
+    word-wrap: break-word;
+  }
+  
+  .tour-date {
+    font-size: 25px;
+    font-family: arial;
+    font-variant: small-caps;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    background-color: #25312E;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-body {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: arial;
+    color: white;
+    width: 1000px;
+    word-wrap: break-word;
+    padding: 10px;
+    font-variant: small-caps;
+  }
+  
+  .about-photo {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .about-photo img {
+    max-width: 500%;
+    max-height: auto;
+    object-fit: cover;
+  }
+  
+  .about-header {
+    padding: 10px;
+    border-width: 12px;
+    border-radius: 15px;
+    border-style: solid;
+    font-size: 80px;
+    backdrop-filter: url(commonfilters.svg#filter);
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+    font-family: arial;
+    color: #CE0031;
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+    position: absolute;
+    margin-top: 100px;
+  }
+  
